@@ -19,7 +19,7 @@
 
         .btn-outline-success:hover {
             background-color: #105827 !important;
-            text-decoration-color: aliceblue;
+            text-decoration-color: white;
         }
     </style>
 
@@ -31,6 +31,9 @@
 
 <nav class="navbar navbar-light ">
     <a class="navbar-brand" href="/">
-        <img src="./assets/moh-logo.png" width="" height="80" alt="">
+        <img src="/assets/moh-logo.png" width="" height="80" alt="">
     </a>
+    <div class="float-right">
+        <img src="/assets/g3357.png" height="80" alt="">
+    </div>
 </nav>

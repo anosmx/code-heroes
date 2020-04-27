@@ -5,7 +5,10 @@
         <div class="row mt-3">
             <div class="col-md-9">
 
-                <div class="d-flex justify-content-end mb-4">
+                <div class="d-flex justify-content-between mb-4">
+                    <div class="">
+                        <a href="search.php" class="btn btn-outline-secondary">Search Again</a>
+                    </div>
                     <div class="">
                         <input type="text" class="form-control " placeholder="Search ..">
                     </div>
