@@ -5,7 +5,10 @@
         <div class="row mt-3">
             <div class="col-md-9">
 
-                <div class="d-flex justify-content-end mb-4">
+                <div class="d-flex justify-content-between mb-4">
+                    <div class="ml-5">
+                        <button onclick="goBack();" class="btn btn-outline-info">Back</button>
+                    </div>
                     <div class="">
                         <input type="text" class="form-control " placeholder="Search ..">
                     </div>
@@ -13,53 +16,67 @@
 
                 <div class="row">
 
-                    <div class="col-md-2">
-                        <div class="btn-group-vertical">
-                            <a href="blood.php" class="btn btn-lg btn-outline-success">Medical Analysis</a>
-                            <a href="#" class="btn btn-lg btn-outline-success">X-Ray</a>
-                            <a href="#" class="btn btn-lg btn-outline-success">Medications</a>
-                            <a href="#" class="btn btn-lg btn-outline-success">Appointments</a>
-                            <a href="#" class="btn btn-lg btn-outline-success">Operations</a>
-                            <a href="#" class="btn btn-lg btn-outline-success">Detailed Report</a>
-                        </div>
-                    </div>
-
                     <div class="col-md-10">
 
-                        <div>
-                            <h3 class="mb-4 text-secondary">Last 3 Visits</h3>
+                        <div class="ml-5">
+                            <h3 class="mb-4 text-secondary">Blood Chemistry Report</h3>
 
-                            <table class="table table-hover">
+                            <table class="table table-hover table-bordered">
                                 <thead>
                                 <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
+                                    <th scope="col">Lab Test</th>
+                                    <th scope="col">Results</th>
+                                    <th scope="col">Reference Range</th>
+                                    <th scope="col">Unit</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <th scope="row" style="width: 1%">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
+                                    <th scope="row">Lipid Profile</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
+                                    <th scope="row">Cholesteride</th>
+                                    <td>399 (High)</td>
+                                    <td>150 - 200</td>
+                                    <td>mg/dL</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">3</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
+                                    <th scope="row">Triglyceride</th>
+                                    <td>999 (High)</td>
+                                    <td>30 - 150</td>
+                                    <td>mg/dL</td>
                                 </tr>
+                                <tr>
+                                    <th scope="row">HDL-C</th>
+                                    <td>65 (High)</td>
+                                    <td>40 - 60</td>
+                                    <td>mg/dL</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">LDL-C</th>
+                                    <td>249 (High)</td>
+                                    <td>< 150</td>
+                                    <td>mg/dL</td>
+                                </tr>
+
                                 </tbody>
                             </table>
                         </div>
 
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="btn-group-vertical mt-5">
+                            <a href="blood.php" class="btn btn-lg btn-outline-secondary">Creatinine</a>
+                            <a href="#" class="btn btn-lg btn-outline-secondary">G6PD</a>
+                            <a href="#" class="btn btn-lg btn-outline-secondary">BT</a>
+                            <a href="#" class="btn btn-lg btn-outline-secondary">C.P.C</a>
+                            <a href="#" class="btn btn-lg btn-outline-secondary">(E.S.R)</a>
+                            <a href="#" class="btn btn-lg btn-outline-secondary">Enzymes</a>
+                        </div>
                     </div>
                 </div>
 

@@ -17,7 +17,7 @@
                         <div class="btn-group-vertical">
                             <a href="blood.php" class="btn btn-lg btn-outline-success">Medical Analysis</a>
                             <a href="#" class="btn btn-lg btn-outline-success">X-Ray</a>
-                            <a href="#" class="btn btn-lg btn-outline-success">Medications</a>
+                            <a href="medication.php" class="btn btn-lg btn-outline-success">Medications</a>
                             <a href="#" class="btn btn-lg btn-outline-success">Appointments</a>
                             <a href="#" class="btn btn-lg btn-outline-success">Operations</a>
                             <a href="#" class="btn btn-lg btn-outline-success">Detailed Report</a>

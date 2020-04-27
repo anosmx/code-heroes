@@ -11,7 +11,7 @@
                     <form action="search.php">
                         <div class="form-group">
                             <label for="email" class="text-success">Username:</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                            <input type="text" class="form-control" id="email" aria-describedby="emailHelp">
                         </div>
 
                         <div class="form-group">
