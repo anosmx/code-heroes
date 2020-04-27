@@ -30,7 +30,7 @@
 <div class="bg-success pb-4"></div>
 
 <nav class="navbar navbar-light ">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="../index.php">
         <img src="./assets/moh-logo.png" width="" height="80" alt="">
     </a>
 </nav>
