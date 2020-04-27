@@ -15,7 +15,7 @@
 
                     <div class="col-md-2">
                         <div class="btn-group-vertical">
-                            <a href="blood.php" class="btn btn-lg btn-outline-success">Medical Analysis</a>
+                            <a href="blood.php" class="btn btn-lg btn-outline-success">Medical Tests</a>
                             <a href="#" class="btn btn-lg btn-outline-success">X-Ray</a>
                             <a href="medication.php" class="btn btn-lg btn-outline-success">Medications</a>
                             <a href="#" class="btn btn-lg btn-outline-success">Appointments</a>
@@ -27,37 +27,26 @@
                     <div class="col-md-10">
 
                         <div>
-                            <h3 class="mb-4 text-secondary">Last 3 Visits</h3>
+                            <h3 class="mb-4 text-secondary">Last 4 Visits</h3>
 
-                            <table class="table table-hover">
-                                <thead>
-                                <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <th scope="row" style="width: 1%">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                                </tbody>
-                            </table>
+                            <div class="row text-center justify-content-center">
+                                <div class="col-md-3 m-3 p-3 border border-warning rounded">
+                                    <p>20/1/2019</p>
+                                    <a href="#">Detailed Report</a>
+                                </div>
+                                <div class="col-md-3 m-3 p-3 border border-warning rounded">
+                                    <p>20/1/2019</p>
+                                    <a href="#">Detailed Report</a>
+                                </div>
+                                <div class="col-md-3 m-3 p-3 border border-warning rounded">
+                                    <p>20/1/2019</p>
+                                    <a href="#">Detailed Report</a>
+                                </div>
+                                <div class="col-md-3 m-3 p-3 border border-warning rounded">
+                                    <p>20/1/2019</p>
+                                    <a href="#">Detailed Report</a>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
